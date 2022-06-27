@@ -18,6 +18,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Videoteca di Manuel</h1>
+    <ul>
+        <?php foreach($movies as $movie) { ?>
+        <li>
+            <h3><?php echo $movie->title ?></h3>
+        </li>
+        <?php } ?>
+    </ul>
 </body>
 </html>
